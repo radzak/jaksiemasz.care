@@ -22,9 +22,12 @@ dependencies {
     // Use Scalatest for testing our library
     testCompile 'junit:junit:4.12'
     testCompile 'org.scalatest:scalatest_2.12:3.0.4'
+    testCompile "org.specs2:specs2-core_2.12:4.0.1"
 
     // Need scala-xml at test runtime
     testRuntime 'org.scala-lang.modules:scala-xml_2.11:1.0.6'
+
+    compile group: 'com.google.guava', name: 'guava', version: '23.0'
 }
 
 jar {
