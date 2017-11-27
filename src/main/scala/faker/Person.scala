@@ -1,6 +1,9 @@
 package faker
 
-class Person(private var _name: String, private var _surname: String, private var _email: String) {
+class Person(
+              private var _name: String,
+              private var _surname: String,
+              private var _email: String) {
   name = _name
   surname = _surname
   email = _email

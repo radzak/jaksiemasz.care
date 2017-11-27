@@ -1,7 +1,7 @@
-import faker.Person
+import faker.RandomPersonFactory
 
 
 object Main extends App {
-  var person = new Person("Radek", "Krzak", "radek.krzak@gmail.com")
-  println(person)
+  for (person <- RandomPersonFactory(20))
+    println(person)
 }
