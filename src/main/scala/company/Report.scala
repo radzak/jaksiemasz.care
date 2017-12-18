@@ -1,0 +1,5 @@
+package company
+
+trait Report {
+
+}
