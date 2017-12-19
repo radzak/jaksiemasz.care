@@ -4,7 +4,6 @@ import org.junit.runner.RunWith
 import org.scalatest.FlatSpec
 import org.scalatest.junit.JUnitRunner
 
-
 @RunWith(classOf[JUnitRunner])
 class PersonSpec extends FlatSpec {
   "Person" should "produce IllegalArgumentException when instantiated with invalid name" in {
